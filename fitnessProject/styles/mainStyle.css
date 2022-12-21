@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+    height: 100%;
+    font-family: sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.main-content-block{
+    justify-items: center;
+    border-top: 2px solid #ffffff;
+    background: linear-gradient(180deg, #303030, #FFFFFF);
+    height: 100%;
+}
+.foot-content{
+    height: 100%;
+}
+.main-content-block-video{
+    background: white;
+    width: 70%;
+    height: 450px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.main-content-block-selectable{
+    margin-top: 5px;
+    width: 50%;
+    height: 15px;
+}
+.main-content-block-selectable ul{
+    display: flex;
+}
+.main-content-block-selectable li{
+    background-color: white;
+    width: 15px;
+    border-radius: 50%;
+}
