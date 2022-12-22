@@ -15,7 +15,7 @@ body{
 }
 .foot-content{
     border-top: 5px solid black;
-    height: 30%;
+    height: 10%;
 }
 .main-content-block-video{
     background: white;
@@ -44,7 +44,7 @@ body{
 }
 .foot-content-contacts-info{
     width: 80%;
-    height: 100%;
+    height: 100%
 }
 .foot-content-contacts{
     margin-top: 25px;
@@ -57,6 +57,9 @@ body{
     width: 70%;
 }
 .foot-content-contacts-links{
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
     width: 30%;
 }
 .foot-content-contacts-text a{
@@ -68,4 +71,15 @@ body{
 }
 .foot-content-contacts-text p{
     color: #8E8E8E;
+}
+.foot-content-contacts-info p{
+    margin-left: 20px;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+.main-content-block-buttom{
+    width: 70%;
+    height: 100px;
+    display: inline;
+    justify-content: space-around;
 }
