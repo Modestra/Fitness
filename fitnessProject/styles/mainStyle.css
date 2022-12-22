@@ -42,11 +42,15 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+.foot-content-contacts-info{
+    width: 80%;
+    height: 100%;
+}
 .foot-content-contacts{
     margin-top: 25px;
     border-top: 2px solid black;
     display: flex;
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 .foot-content-contacts-text{
