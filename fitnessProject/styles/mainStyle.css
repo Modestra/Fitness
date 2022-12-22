@@ -44,7 +44,7 @@ body{
 }
 .foot-content-contacts-info{
     width: 80%;
-    height: 100%
+    height: 100%;
 }
 .foot-content-contacts{
     margin-top: 25px;
@@ -58,7 +58,7 @@ body{
 }
 .foot-content-contacts-links{
     display: flex;
-    justify-content: space-between;
+    align-content: flex-end;
     height: 45%;
     width: 30%;
 }
@@ -79,7 +79,15 @@ body{
 }
 .main-content-block-button{
     width: 70%;
-    height: 100px;
-    display: inline;
+    height: 70px;
+    display: flex;
     justify-content: space-around;
+}
+.main-content-block-button-plan{
+    width: 50%;
+    height: 100%;
+}
+.main-content-block-button-trains{
+    width: 50%;
+    height: 100%;
 }
