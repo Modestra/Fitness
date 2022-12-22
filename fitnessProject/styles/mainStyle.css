@@ -14,7 +14,8 @@ body{
     height: 100%;
 }
 .foot-content{
-    height: 100%;
+    border-top: 5px solid black;
+    height: 30%;
 }
 .main-content-block-video{
     background: white;
@@ -30,9 +31,37 @@ body{
 }
 .main-content-block-selectable ul{
     display: flex;
+    margin-left: 190px;
 }
 .main-content-block-selectable li{
+    list-style-type: none;
     background-color: white;
     width: 15px;
+    margin-right: -1px;
+    margin-left: 40px;
     border-radius: 50%;
+    cursor: pointer;
+}
+.foot-content-contacts{
+    margin-top: 25px;
+    border-top: 2px solid black;
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.foot-content-contacts-text{
+    width: 70%;
+}
+.foot-content-contacts-links{
+    width: 30%;
+}
+.foot-content-contacts-text a{
+    display: block;
+    margin-left: 20px;
+    color: #8E8E8E;
+    height: 20px;
+    margin-top: 5px;
+}
+.foot-content-contacts-text p{
+    color: #8E8E8E;
 }
