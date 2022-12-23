@@ -7,44 +7,66 @@
 }
 .main-hat-logo{
     margin-top: 27px;
-    margin-left: 80px;
-    width: 60%;
-    height: 100%;
+    margin-left: 3%;
+    width: 20%;
+    height: 80%;
 }
 .main-hat-logo img{
     width: 196px;
-    height: 148px;
-}
-.main-hat-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 30px;
-    margin-top: -35px;
-    width: 40%;
     height: 100%;
 }
+.main-hat-links{
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 90%;
+    margin-right: 10%;
+    flex-direction: row-reverse;
+}
 .main-hat-search{
+    background-color: white;
+    border-radius: 50%;
     height: 50px;
-    width: 60px;
+    width: 50px;
     margin-right: 10px;
 }
 .main-hat-menu{
+    border-radius: 30px;
+    background-color: white;
     height: 50px;
-    width: 40%;
+    width: 15%;
     margin-right: 10px;
+    margin-left: 10px;
+    line-height: 50px;
 }
 .main-hat-enter{
-    width: 40%;
+    border-radius: 30px;
+    background-color: white;
+    width: 15%;
     height: 50px;
     margin-right: 10px;
+    margin-left: 10px;
+    line-height: 50px;
 }
-.main-hat-menu img{
-    height: 55px;
+.main-hat-enter p{
+    text-align: start;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #040505;
 }
-.main-hat-enter{
-    height: 55px;
-    margin-top: 5px;
+.main-hat-menu p {
+    text-align: start;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #040505;
 }
-.main-hat-search:hover img{
+.main-hat-menu:hover{
+    background-color: #F69809;
+}
+.main-hat-enter:hover{
+    background-color: #F69809;
+}
+.main-hat-search:hover{
+    background-color: #F69809;
 }

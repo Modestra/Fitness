@@ -52,13 +52,14 @@ body{
     display: flex;
     width: 100%;
     height: 100%;
+    align-items: flex-end;
+    margin-bottom: 5px;
 }
 .foot-content-contacts-text{
     width: 70%;
 }
 .foot-content-contacts-links{
     display: flex;
-    align-content: flex-end;
     height: 45%;
     width: 30%;
 }
@@ -78,16 +79,41 @@ body{
     font-size: 12px;
 }
 .main-content-block-button{
+    margin-top: 30px;
     width: 70%;
     height: 70px;
     display: flex;
     justify-content: space-around;
 }
 .main-content-block-button-plan{
+    border-radius: 10px;
+    background-color: #040505;
+    margin-right: 30px;
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 65px;
+    cursor: pointer;
 }
 .main-content-block-button-trains{
+    border-radius: 10px;
+    background-color: #F69809;
+    margin-left: 30px;
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 65px;
+    cursor: pointer;
+}
+.main-content-block-button-plan p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.main-content-block-button-trains p{
+    text-align: center;
+    font-size: 30px;
+    color: #040505;
 }
