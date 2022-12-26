@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
+    <link rel="stylesheet" href="styles/authStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="scripts/auth.php">
-        <div class="auth-logo">
-
+    <div class="auth">
+        <p class="auth-text">Авторизация</p>
+        <div class="auth-block">
+            <p>E-mail</p>
+            <input type="text">
         </div>
-    </form>
+        <div class="auth-block">
+            <p>Пароль</p>
+            <input type="text">
+        </div>
+        <input class="auth-sumbit" type="button">
+    </div>
 </body>
 </html>

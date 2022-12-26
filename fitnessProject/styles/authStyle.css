@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100%;
+    background: linear-gradient(180deg, rgba(3, 4, 6, 0.54) 15.31%, rgba(13, 16, 23, 0.54) 54.1%, rgba(255, 255, 255, 0) 100%);
+    mix-blend-mode: normal;
+}
+.auth {
+    width: 390px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    aligh-items: center;
+    background-color: #E7E7E7;
+}
+.auth-text{
+    width: 256px;
+    height: 47px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.auth-block{
+    margin-top: 30px;
+    width: 315px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.auth-block p{
+    margin-bottom: 5px;
+    color: #8E8E8E;
+    width: 315px;
+    height: 30px;
+    font-size: 20px;
+}
+.auth-block input{
+    margin-top: 5px;
+    color: #8E8E8E;
+    width: 315px;
+    height: 75px;
+    border: 1px solid #F69809;
+    border-radius: 30px;
+}
+.auth-sumbit{
+    margin-top: 30px;
+    width: 320px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #F69809;
+
+}
