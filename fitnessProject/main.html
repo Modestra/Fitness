@@ -15,7 +15,8 @@
         <div class="main-hat">
             <img src="images/лого.svg">
             <p class="main-hat-title">GYM LAUNCH</p>
-            <div class="main-hat-search">
+            <div id="search" class="main-hat-search" onclick="searchClick()">
+                <img src="images/loupe.png">
             </div>
             <div class="main-hat-menu">
                 <p class="main-hat-menu-name">Меню</p>
@@ -25,11 +26,12 @@
                     <div class="main-hat-menu-line-3"></div>
                 </div>
             </div>
-            <div class="main-hat-enter">
+            <div class="main-hat-enter" onclick="comeToAuth()">
                 <p class="main-hat-enter-name">Войти</p>
             </div>
         </div>
     </header>
+    <script src="scripts/headScript.js"></script>
     <div class="main-content-block">
         <div class="main-content-block-video">
         </div>
@@ -61,14 +63,14 @@
                     <a>E-mail</a>
                 </div>
                 <div class="foot-content-contacts-links">
-                    <img src="images/socials.png">
-                    <img src="images/socials2.png">
-                    <img src="images/socials3.png">
-                    <img src="images/socials4.png">
-                    <img src="images/socials5.png">
+                    <a><img src="images/socials.png"></a>
+                    <a><img src="images/socials2.png"></a>
+                    <a><img src="images/socials3.png"></a>
+                    <a><img src="images/socials4.png"></a>
+                    <a><img src="images/socials5.png"></a>
                 </div>
             </div>
-            <p>Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту</p>
+            <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
         </div>
     </div>
 </body>

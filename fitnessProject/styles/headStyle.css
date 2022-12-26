@@ -39,6 +39,33 @@
     width: 76px;
     height: 56px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+.main-hat-search img{
+    width: 40px;
+    height: 40px;
+}
+.main-hat-search input{
+    width: 0px;
+    height: 56px;
+}
+.main-hat-search-click{
+    animation: anim-search 1s forwards;
+}
+.main-hat-search-click-back{
+    animation: anim-search-back 1s forwards;
+}
+@keyframes anim-search {
+    100%{
+        width: 300px;
+    }
+}
+@keyframes anim-search-back {
+    100%{
+        width: 40px;
+    }
 }
 .main-hat-menu{
     background: #FFFFFF;
@@ -66,14 +93,17 @@
 .main-hat-menu:hover{
     background-color: #F69809;
     box-shadow: inset 0px 4px 7px #FFFFFF;
+    cursor: pointer;
 }
 .main-hat-enter:hover{
     background-color: #F69809;
     box-shadow: inset 0px 4px 7px #FFFFFF;
+    cursor: pointer;
 }
 .main-hat-search:hover{
     background-color: #F69809;
     box-shadow: inset 0px 4px 7px #FFFFFF;
+    cursor: pointer;
 }
 .main-hat-menu-name{
     width: 80px;
