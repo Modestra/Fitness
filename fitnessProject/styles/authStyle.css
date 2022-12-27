@@ -49,8 +49,45 @@ body{
 .auth-sumbit{
     margin-top: 30px;
     width: 320px;
-    height: 48px;
+    height: 95px;
     border-radius: 30px;
     background-color: #F69809;
-
+    box-shadow: 0px 4px 4px #989298;
+    text-align: center;
+    color: #040505;
+    font-size: 20px;
+    line-height: 40px;
+}
+.auth-sumbit:hover{
+    animation: anim-auth-sumbit 500ms forwards;
+    cursor: pointer;
+}
+@keyframes anim-auth-sumbit {
+    100%{
+        background-color: #E7E7E7;
+    }
+}
+.auth-text{
+    width: 315px;
+    border-bottom: 1px solid #000000;
+}
+.registration-link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 55px;
+    text-align: center;
+}
+.registration-link:hover{
+    cursor: pointer;
+    color: #F69809;
+    text-decoration-color: #F69809;
+    text-decoration-line: underline;
+}
+.auth-another-links{
+    width: 390px;
+    border-top: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    aligh-items: center;
 }
