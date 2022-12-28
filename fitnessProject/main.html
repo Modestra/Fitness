@@ -33,9 +33,9 @@
     </header>
     <script src="scripts/headScript.js"></script>
     <div class="main-content-block">
-        <div class="main-content-block-video">
+        <div id="video" class="main-content-block-video">
         </div>
-        <div class="main-content-block-selectable">
+        <div id="select" class="main-content-block-selectable">
             <div class="main-content-block-selectable-icon"></div>
             <div class="main-content-block-selectable-icon"></div>
             <div class="main-content-block-selectable-icon"></div>
@@ -43,15 +43,15 @@
             <div class="main-content-block-selectable-icon"></div>
         </div>
         <div class="main-content-block-button">
-            <div class="main-content-block-button-plan">
+            <div id="plan" class="main-content-block-button-plan">
                 <p>Выбрать план тренировок</p>
             </div>
-            <div class="main-content-block-button-trains">
+            <div id="trains" class="main-content-block-button-trains" onclick="trains()">
                 <p>Выбрать упражнения</p>
             </div>
         </div>
-        <div class="main-content-block-discription">
-            <p>Мы даем возможность спортсменам-новичкам и опытным спортсменам получить доступ к структурированной информации о выполнении упражнений, а также к готовым планам тренировок.</p>
+        <div id="description-block" class="main-content-block-discription">
+            <p id="description">Мы даем возможность спортсменам-новичкам и опытным спортсменам получить доступ к структурированной информации о выполнении упражнений, а также к готовым планам тренировок.</p>
         </div>
     </div>
     <div class="foot-content">
@@ -73,5 +73,6 @@
             <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
         </div>
     </div>
+    <script src="scripts/mainscript.js"></script>
 </body>
 </html>

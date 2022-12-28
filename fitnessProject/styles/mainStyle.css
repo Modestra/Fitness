@@ -24,6 +24,16 @@ body{
     margin-top: 10px;
     border-radius: 10px;
 }
+@keyframes anim-video {
+    100%{
+        width: 733px;
+        height: 616px;
+        border-radius: 0;
+    }
+}
+.main-content-block-video-active{
+    animation: anim-video 1s forwards;
+}
 .main-content-block-selectable{
     margin-top: 27px;
     width: 50%;
@@ -123,6 +133,9 @@ body{
     box-shadow: 0px 4px 4px #FFFFFF;
     border-radius: 30px;
 }
+.main-content-block-button-trains-active{
+    margin-left: 330px;
+}
 .main-content-block-button-plan p{
     padding-top: 5px;
     width: 281px;
@@ -155,6 +168,16 @@ body{
     box-shadow: 0px 4px 4px #000000;
     border-radius: 30px;
     margin-bottom: 257px;
+}
+@keyframes anim-description {
+    100%{
+        width: 946px;
+        height: 64px;
+    }
+}
+.main-content-block-discription-active{
+    animation: anim-description 1s forwards;
+    height: 64px;
 }
 .main-content-block-discription p{
     padding-top: 17px;
