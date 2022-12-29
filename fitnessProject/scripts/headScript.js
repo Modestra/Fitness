@@ -12,6 +12,6 @@ function searchClick(){
     }
 }
 function comeToAuth(){
-    window.open("D:/Fitness/fitnessProject/authorization.html")
+    window.open("../fitnessProject/authorization.html")
     this.close()
 }
