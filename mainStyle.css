@@ -15,99 +15,178 @@ body{
 }
 
         /* main-body */
-.main-body{
+.mainBody{
     height: 970px;
 }
 
-.main-body-image{
-    margin-top: 51px;
-    width: 946px;
-    height: 471px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-}
-
-.main-body-dots-box{
+.mainBody-heading{
     display: flex;
-    width: 140px;
-    height: 14px;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
-.main-body-dot{
-    width: 14px;
-    height: 14px;
-    border-radius: 7px;
-    background-color: #FFFFFF;
-}
-
-.main-body-buttons-box{
-    margin-top: 7px;
-    width: 1064px;
-    height: 116px;
-    display: flex;
-}
-
-.main-body-first-btn{
-    width: 270px;
-    height: 90px;
-    background-color: #000000;
+    margin-top: 50px;
+    width: 947px;
+    height: 91px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #F69809;
     border-radius: 30px;
-    box-shadow: 0px 4px 4px #FFFFFF;
+    text-align: center;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 48px;
+    line-height: 94px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mainBody-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainBody-box-myAccount{
+    margin-top: 20px;
+    width: 366px;
+    height: 736px;
+}
+
+.mainBody-box-myAccount-myImage{
+    width: 366px;
+    height: 348px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #F69809;
+    border-radius: 30px
+}
+
+.mainBody-box-myAccount-myName{
+    width: 366px;
+    height: 38px;
+    margin-top: 23px;
     text-align: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
     color: #FFFFFF;
 }
 
-.main-body-second-btn{
-    width: 270px;
-    height: 90px;
-    background: #F69809;
-    box-shadow: 0px 4px 4px #FFFFFF;
+.mainBody-box-myAccount-myTargets{
+    width: 367px;
+    height: 128px;
+    text-align: center;
+    margin-top: 37px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
-    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
 
-.main-body-description-box{
-    width: 754px;
-    height: 224px;
-    margin-top: 59px;
-    background-color: #FFFFFF;
-    box-shadow: inset 0px 4px 4px #F69809;
+.mainBody-box-myAccount-Chosen{
+    width: 366px;
+    height: 38px;
+    margin-top: 37px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.mainBody-box-myAccount-exit{
+    width: 173px;
+    height: 47px;
+    margin-top: 37px;
+    text-align: center;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.mainBody-box-myResults-myParams{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 657px;
+    height: 357px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
 }
 
-.main-body-description{
-    width: 655px;
-    height: 190px;
-}
-
-.main-body-description-text{
+.mainBody-box-myResults-myParams-heading{
+    width: 463px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 110px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    text-align: center;
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-    color: #000000;
+    color: #FFFFFF;
 }
 
-.main-content-block{
-    justify-items: center;
-    border-top: 2px solid #ffffff;
-    background: linear-gradient(90deg, rgba(3, 4, 6, 0.54) 19.54%, rgba(9, 13, 22, 0.54) 47.12%, rgba(29, 42, 71, 0) 99.79%);
-    height: 950px;
+.mainBody-box-myResults-myParams-Section{
+    height: 256px;
+    width: 173px;
 }
+
+.mainBody-box-myResults-myParams-param{
+    width: 173px;
+    height: 38px;
+    margin-top: 21px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.mainBody-box-myResults-myParams-date{
+    width: 173px;
+    height: 21px;
+    margin-top: 53px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
 .foot-content{
+    margin-top: -160px;
     border-top: 4px solid #8E8E8E;
     height: 172px;
 }
