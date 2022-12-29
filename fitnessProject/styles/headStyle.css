@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: nowrap;
     height: 172px;
-    background: linear-gradient(90deg, rgba(3, 4, 6, 0.54) 19.54%, rgba(9, 13, 22, 0.54) 47.12%, rgba(29, 42, 71, 0) 99.79%);
+    background: #151E31 linear-gradient(90deg, rgba(3, 4, 6, 0.54) 15.31%, rgba(13, 16, 23, 0.54) 54.1%, rgba(255, 255, 255, 0) 100%);
     border-bottom: 3px solid #040505;
 }
 .main-hat img{
@@ -32,9 +32,9 @@
     top: 42px;
 }
 .main-hat-search{
-    background: #FFFFFF;
+    background: #000000;
     margin-top: 58px;
-    box-shadow: inset 0px 2px 5px #F69809;
+    box-shadow: inset 0px 4px 7px #F69809;
     border-radius: 30px;
     width: 76px;
     height: 56px;
@@ -46,6 +46,7 @@
 .main-hat-search img{
     width: 40px;
     height: 40px;
+    color: white;
 }
 .main-hat-search input{
     width: 0px;
@@ -68,9 +69,9 @@
     }
 }
 .main-hat-menu{
-    background: #FFFFFF;
+    background: #000000;
     margin-top: 58px;
-    box-shadow: inset 0px 2px 5px #F69809;
+    box-shadow: inset 0px 4px 7px #F69809;
     border-radius: 30px;
     width: 174px;
     height: 56px;
@@ -80,7 +81,7 @@
     display: flex;
 }
 .main-hat-enter{
-    background: #FFFFFF;
+    background: black;
     margin-top: 58px;
     box-shadow: inset 0px 2px 5px #F69809;
     border-radius: 30px;
@@ -108,6 +109,7 @@
 .main-hat-menu-name{
     width: 80px;
     height: 39px;
+    color: white;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -124,21 +126,22 @@
 }
 .main-hat-menu-line-1{
     height: 0;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid white;
 }
 .main-hat-menu-line-2{
     height: 0;
     margin-top: 11px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid white;
 }
 .main-hat-menu-line-3{
     height: 0;
     margin-top: 11px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid white;
 }
 .main-hat-enter-name{
     width: 80px;
     height: 39px;
+    color: white;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
