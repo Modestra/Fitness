@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="styles/mainStyle.css">
   <link rel="stylesheet" href="styles/headStyle.css">
   <link rel="stylesheet" href="styles/plansStyle.css">
-  <link rel="stylesheet" href="styles/buttomDecorationStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
@@ -35,6 +34,11 @@
       <p class="main-hat-enter-name">Войти</p>
     </div>
   </div>
+  <div id="fastmenu" class="fastmenu">
+    <div class="fastmenu-plan" onclick="fastmenuplan()">План тренировок</div>
+    <div class="fastmenu-work" onclick="fastmenuwork()">Упражнения</div>
+    <div class="fastmenu-cabinet" onclick="fastmenucabinet()">Личный Кабинет</div>
+  </div>
 </header>
 <script src="scripts/headScript.js"></script>
 <main class="main-content-block">
@@ -42,9 +46,7 @@
     <div class="plan-head">
       <p>Планы тренировок</p>
     </div>
-
     <section class="plan-content">
-
       <div class="plan-content-block">
         <div class="plan-content-block1">
           <div class="plan-content-btn">
@@ -77,7 +79,6 @@
       </div>
     </section>
   </div>
-
 </main>
 <footer class="foot-content">
   <div class="foot-content-contacts-info">
@@ -98,5 +99,7 @@
     <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
   </div>
 </footer>
+<script src="lib/jquery/jquery-3.6.3.min.js"></script>
+<script src="scripts/menuScript.js"></script>
 </body>
 </html>

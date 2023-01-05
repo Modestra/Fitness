@@ -5,7 +5,6 @@
     <title>Тренировки</title>
     <link rel="stylesheet" href="styles/mainStyle.css">
     <link rel="stylesheet" href="styles/headStyle.css">
-    <link rel="stylesheet" href="styles/buttomDecorationStyle.css">
     <link rel="stylesheet" href="styles/traintlistStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,11 +31,16 @@
       </div>
     </div>
   </header>
+  <div id="fastmenu" class="fastmenu">
+    <div class="fastmenu-plan" onclick="fastmenuplan()">План тренировок</div>
+    <div class="fastmenu-work" onclick="fastmenuwork()">Упражнения</div>
+    <div class="fastmenu-cabinet" onclick="fastmenucabinet()">Личный Кабинет</div>
+  </div>
   <script src="scripts/headScript.js"></script>
   <div id="trains" class="trains">
-    <div class="trains-types">
+    <div id="plan-list" class="trains-types">
       <div class="trains-types-element">Тренировка</div>
-      <div class="trains-types-element-new" onclick="createTran()">Создать план</div>
+      <div id="createPlan" class="trains-types-element-new" onclick="createTran()">Создать план</div>
     </div>
     <div class="trains-plan">
       <div class="trains-plan-dummy"></div>
@@ -61,6 +65,8 @@
       <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
     </div>
   </div>
-  <script src="scripts/mainscript.js"></script>
+  <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+  <script src="scripts/menuScript.js"></script>
+  <script src="scripts/planscript.js"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
     <title>Главная</title>
     <link rel="stylesheet" href="styles/mainStyle.css">
     <link rel="stylesheet" href="styles/headStyle.css">
-    <link rel="stylesheet" href="styles/iFrameStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
@@ -18,7 +17,7 @@
             <div id="search" class="main-hat-search" onclick="searchClick()">
                 <img src="images/loupe.png">
             </div>
-            <div class="main-hat-menu">
+            <div id="menu" class="main-hat-menu">
                 <p class="main-hat-menu-name">Меню</p>
                 <div class="main-hat-menu-lines">
                     <div class="main-hat-menu-line-1"></div>
@@ -32,6 +31,11 @@
         </div>
     </header>
     <script src="scripts/headScript.js"></script>
+    <div id="fastmenu" class="fastmenu">
+        <div class="fastmenu-plan" onclick="fastmenuplan()">План тренировок</div>
+        <div class="fastmenu-work" onclick="fastmenuwork()">Упражнения</div>
+        <div class="fastmenu-cabinet" onclick="fastmenucabinet()">Личный Кабинет</div>
+    </div>
     <div class="main-content-block">
         <div id="video" class="main-content-block-video">
         </div>
@@ -43,10 +47,10 @@
             <div class="main-content-block-selectable-icon"></div>
         </div>
         <div class="main-content-block-button">
-            <div id="plan" class="main-content-block-button-plan">
+            <div id="plan" class="main-content-block-button-plan" onclick="fastmenuplan()">
                 <p>Выбрать план тренировок</p>
             </div>
-            <div id="trains" class="main-content-block-button-trains" onclick="Itrains()">
+            <div id="trains" class="main-content-block-button-trains" onclick="fastmenuwork()">
                 <p>Выбрать упражнения</p>
             </div>
         </div>
@@ -73,7 +77,7 @@
             <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
         </div>
     </div>
-    <script src="scripts/mainscript.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="scripts/menuScript.js"></script>
 </body>
-
 </html>
