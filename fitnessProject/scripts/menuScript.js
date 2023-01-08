@@ -1,12 +1,12 @@
 $(document).ready(()=>{
     console.log('Скрипт jquery запущен');
-    $('#fastmenu').hide();
+    $('.fastmenu').hide();
     $('#menu').on('click', ()=>{
-        if($('#fastmenu').is(":visible")){
-            $('#fastmenu').hide(500);
+        if($('.fastmenu').is(":visible")){
+            $('.fastmenu').hide(500);
         }
         else {
-            $('#fastmenu').show(500);
+            $('.fastmenu').show(500);
         }
     });
 });
