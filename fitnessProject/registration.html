@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <form action="scripts/auth.php" method="post">
+    <form action="connectionDB.php" method="get">
     <div class="auth">
         <p class="auth-text">Регистрация</p>
       <div class="auth-block">
@@ -24,12 +24,11 @@
         <p>Пароль</p>
         <input type="password" name="password">
       </div>
-      <div id="enter" class="auth-sumbit" onclick="enterInSite()">Зарегестрироваться</div>
+      <input id="enter" class="auth-sumbit" type="submit" value="Зарегестрироваться">
         <div class="registration-link" onclick="authorisation()">Есть аккаунт?</div>
-        <div class="auth-another-links">
-      </div>
+        <div class="auth-another-links"></div>
     </div>
-  </form>
+    </form>
   <script src="lib/jquery/jquery-3.6.3.min.js"></script>
   <script src="scripts/authreg.js"></script>
 </body>
