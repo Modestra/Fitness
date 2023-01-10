@@ -11,14 +11,14 @@ $(document).ready(()=>{
     });
 });
 function fastmenuplan(){
-    window.open('../fitnessProject/trainingPlans.html')
+    document.location.href = '../fitnessProject/trainingPlans.html';
     this.close()
 }
 function fastmenuwork(){
-    window.open('../fitnessProject/trainslist.html')
+    document.location.href = '../fitnessProject/trainslist.html';
     this.close()
 }
 function fastmenucabinet(){
-    window.open('../fitnessProject/usercabinet.html')
+    document.location.href = '../fitnessProject/usercabinet.html';
     this.close()
 }

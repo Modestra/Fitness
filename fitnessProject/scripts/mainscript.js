@@ -1,3 +1,3 @@
 function trains(){
-    window.open("../fitnessProject/trainslist.html")
+    document.location.href = "../fitnessProject/trainslist.html";
 }

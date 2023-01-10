@@ -91,3 +91,8 @@ body{
     flex-direction: column;
     aligh-items: center;
 }
+.error-text{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}

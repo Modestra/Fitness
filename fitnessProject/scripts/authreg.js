@@ -1,9 +1,13 @@
-let input = document.querySelector('#data');
+var phplink = "../fitnessProject/connectionDB.php";
+var xtp = new XMLHttpRequest();
+$(document).ready(()=>{
+    xtp.open("GET", phplink);
+    xtp.send();
+    xtp.responseType = "json";
+});
 function registration(){
-    window.open("../fitnessProject/registration.html")
-    this.close()
+    document.location.href = "../fitnessProject/registration.html";
 }
 function authorisation(){
-    window.open("../fitnessProject/authorization.html")
-    this.close()
+    document.location.href = "../fitnessProject/authorization.html";
 }

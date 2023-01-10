@@ -12,6 +12,6 @@ function searchClick(){
     }
 }
 function comeToAuth(){
-    window.open("../fitnessProject/authorization.html")
+    document.location.href = "../fitnessProject/authorization.html";
     this.close()
 }
