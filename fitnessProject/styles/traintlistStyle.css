@@ -1,31 +1,33 @@
 .trains{
-    background-color: #E7E7E7;
+    background-color: #151E31;
     display: flex;
-    flex-direction: row;
-}
-.trains-types{
-    width: 15%;
-    border-right: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
 
 }
-.trains-plan{
-    width: 85%;
-}
-.trains-types-element{
-    width: 156px;
-    height: 56px;
-    margin-top: 20px;
+.trains-content{
+    margin-top: 28px;
+    width: 947px;
+    height: 629px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
-    background-color: #F69809;
-    text-align: center;
-    line-height: 56px;
 }
-.trains-types-element-new{
-    width: 156px;
-    height: 56px;
-    margin-top: 20px;
+.trains-name{
+    margin-top: 28px;
+    width: 559px;
+    height: 86px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    background-color: #8E8E8E;
-    text-align: center;
-    line-height: 56px;
+}
+.trains-discription{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 947px;
+    height: 94px;
+    left: 0px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    border-radius: 30px;
 }
