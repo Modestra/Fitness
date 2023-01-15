@@ -9,7 +9,7 @@
         $error[] = "Не удалось подключиться к базе данных";
     }
     else{
-        $connect->query("INSERT INTO auth(email, login, password) VALUES ('$email', '$login', '$pass')");
+        $connect->query("INSERT INTO auth(email, login, password) VALUES ('$email', '$login', '$hashpass')");
         header("Location: ../fitnessProject/main.html");
         $connect-> close();
     }
