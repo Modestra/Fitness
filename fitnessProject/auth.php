@@ -1,4 +1,5 @@
 <?
+    $error;
 	$login = $_GET['login'];
 	$pass = $_GET['password'];
 	$hashpass = md5($pass."gfgwgwrgergnjfnvjj545235");
@@ -6,6 +7,7 @@
 	$result = $connect->query("SELECT * FROM auth WHERE `login` = '$login' AND `password` = '$pass'");
 	$user = $result->fetch_assoc();
 	if(count($user)== 0){
+	    $error = "Пользователь не найден";
 		print_r($user);
 		header("Location: ../fitnessProject/authorization.html");
 	}

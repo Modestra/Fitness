@@ -1,0 +1,189 @@
+.main-content-block {
+    height: 970px;
+}
+
+.content-width {
+    max-width: 1366px;
+}
+
+.account-head {
+    width: 947px;
+    height: 91px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 51px;
+    padding-top: 18px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: 0px 4px 4px 0px #f69809;
+    border-radius: 30px;
+}
+
+.account-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.account-content-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-face {
+    height: 348px;
+    box-shadow: 0px 4px 4px #F69809;
+    border-radius: 30px;
+}
+
+.account-face img {
+    width: 366px;
+    height: 348px;
+}
+
+.account-name {
+    width: 366px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 23px;
+    color: #FFFFFF;
+    text-align: center;
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+}
+
+.account-purpose {
+    width: 367px;
+    height: 47px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.account-myPurpose {
+    width: 367px;
+    height: 82px;
+    color: #FFFFFF;
+    border: none;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 30px;
+}
+
+.favourites-btn {
+    width: 367px;
+    height: 47px;
+    text-decoration: none;
+
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+}
+
+.account-content-block2 {
+    width: 657px;
+    height: 357px;
+    margin-top: 20px;
+    margin-bottom: 37px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    border-radius: 30px;
+}
+
+.account-content-block1 {
+    width: 657px;
+    height: 357px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    border-radius: 30px;
+}
+
+.all-purpose {
+    height: 128px;
+    width: 367px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    margin-top: 27px;
+    margin-bottom: 37px;
+    border-radius: 30px;
+}
+
+.table-parameters-head {
+    width: 463px;
+    height: 38px;
+    text-align: center;
+    margin-top: 28px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.table-parameters-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-parameters-column {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    list-style-type: none;
+    height: 190px;
+}
+
+.table-parameters-item {
+    width: 173px;
+    height: 38px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    line-height: 25px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.table-parameters-date {
+    width: 173px;
+    height: 21px;
+    margin-left: 41px;
+    margin-top: 51px;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #0E1421 0.02%, #151E31 39.36%, rgba(21, 30, 49, 0.19) 87.02%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.table-li {
+    height: 38px;
+    margin-top: 25px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
