@@ -1,7 +1,7 @@
 $(document).ready(()=>{
     console.log('Скрипт jquery запущен');
     $('.fastmenu').hide();
-    $('#menu').on('click', ()=>{
+    $('.main-hat-menu').on('click', ()=>{
         if($('.fastmenu').is(":visible")){
             $('.fastmenu').hide(500);
         }
@@ -19,6 +19,6 @@ function fastmenuwork(){
     this.close()
 }
 function fastmenucabinet(){
-    document.location.href = '../fitnessProject/usercabinet.html';
+    document.location.href = '../fitnessProject/personalAccount.html';
     this.close()
 }
