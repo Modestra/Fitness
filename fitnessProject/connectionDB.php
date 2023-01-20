@@ -9,6 +9,8 @@
        $error = true;
     }
     else{
+        setcookie("account", $login);
+        
         $error = false;
         $connect->query("INSERT INTO auth(email, login, password) VALUES ('$email', '$login', '$hashpass')");
         header("Location: ../fitnessProject/main.html");
