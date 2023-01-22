@@ -11,10 +11,12 @@ $(document).ready(()=>{
     console.log("trainsScript запущен");
     document.title = "Упражнение на " + get_cookie("train");
     document.getElementById('train-name').innerText = "Упражнения на " + get_cookie("train");
+    debugger;
     var name_1 = get_cookie('train') + "_1";
     var name_2 = get_cookie('train') + "_2";
     var name_3 = get_cookie('train') + "_3";
     $.getJSON('../fitnessProject/lib/lessons.json', (data)=>{
+        debugger;
         let obj = data.find(muscule => muscule.value === name_1);
         let obj2 = data.find(muscule => muscule.value === name_2);
         let obj3 = data.find(muscule => muscule.value === name_3);
