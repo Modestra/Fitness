@@ -1,0 +1,31 @@
+.trains{
+    background-color: #E7E7E7;
+    display: flex;
+    flex-direction: row;
+}
+.trains-types{
+    width: 15%;
+    border-right: 2px solid black;
+
+}
+.trains-plan{
+    width: 85%;
+}
+.trains-types-element{
+    width: 156px;
+    height: 56px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #F69809;
+    text-align: center;
+    line-height: 56px;
+}
+.trains-types-element-new{
+    width: 156px;
+    height: 56px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #8E8E8E;
+    text-align: center;
+    line-height: 56px;
+}
