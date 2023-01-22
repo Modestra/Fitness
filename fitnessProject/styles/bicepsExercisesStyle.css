@@ -49,10 +49,11 @@
 .biceps-exercise-img {
     width: 752px;
     height: 380px;
+    display: flex;
+    justify-items: center;
     background: #FFFFFF;
     border-radius: 20px;
 }
-
 .biceps-exercise-text {
     width: 657px;
     height: 105px;

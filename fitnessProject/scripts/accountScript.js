@@ -19,7 +19,13 @@ function getCookie(name) {
 $(document).ready(()=>{
     if(navigator.cookieEnabled == true)
     {
+        $.ajax({
+            url:"../fitnessProject/accountInformation.php",
+            type:"GET",
+            success:(responce)=>{
 
+            }
+        });
     }
     else {
         alert("Включите Cookies ля корректной работы сайта");

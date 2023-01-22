@@ -8,10 +8,11 @@
 	$user = $result->fetch_assoc();
 	if(count($user)== 0){
 	    $error = "Пользователь не найден";
-		print_r($user);
 		header("Location: ../fitnessProject/authorization.html");
 	}
 	else{
+		setcookie("account", $login);
+		setcookie("train", "null");
 		header("Location: ../fitnessProject/main.html");
 	}
     $connect-> close();

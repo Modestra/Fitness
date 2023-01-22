@@ -19,7 +19,7 @@ function fastmenuwork(){
     this.close()
 }
 function fastmenucabinet(){
-    if(getCookie("account" != null)){
+    if(getCookie("account") != null){
         document.location.href = "../fitnessProject/personalAccount.html";
     }
     else {

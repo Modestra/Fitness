@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form id="registration" action="connectionDB.php">
+    <form action="connectionDB.php" id="authform">
     <div class="auth">
         <p class="auth-text">Регистрация</p>
       <div class="auth-block">
@@ -26,6 +26,7 @@
       </div>
         <input id="enter" class="auth-sumbit" type="submit" value="Зарегестрироваться">
         <div class="registration-link" onclick="haveAccount()">Есть аккаунт?</div>
+        <div class="error-text"></div>
         <div class="auth-another-links"></div>
     </div>
     </form>
