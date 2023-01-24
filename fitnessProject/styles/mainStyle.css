@@ -51,6 +51,9 @@ body{
     background: #FFFFFF;
     border-radius: 50%;
 }
+.main-content-block-selectable-icon-active{
+    background: #F69809;
+}
 .foot-content-contacts-info{
     height: 149px;
 }
@@ -121,6 +124,11 @@ body{
     box-shadow: 0px 4px 4px #FFFFFF;
     border-radius: 30px;
 }
+.main-content-block-button-plan:hover{
+    cursor: pointer;
+    background: #F69809;
+    box-shadow: 0px 4px 4px #938e94;
+}
 .main-content-block-button-trains{
     background-color: #F69809;
     margin-left: 101px;
@@ -130,8 +138,13 @@ body{
     justify-content: center;
     line-height: 65px;
     cursor: pointer;
-    box-shadow: 0px 4px 4px #FFFFFF;
+    box-shadow: 0px 4px 4px #d8d8d8;
     border-radius: 30px;
+}
+.main-content-block-button-trains:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #F69809;
 }
 .main-content-block-button-trains-active{
     margin-left: 330px;

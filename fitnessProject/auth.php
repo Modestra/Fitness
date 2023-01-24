@@ -1,19 +1,9 @@
-<?
-    $error;
-	$login = $_GET['login'];
-	$pass = $_GET['password'];
-	$hashpass = md5($pass."gfgwgwrgergnjfnvjj545235");
-	$connect = mysqli_connect('192.168.56.1', 'root', '', 'cakesiteDB');
-	$result = $connect->query("SELECT * FROM auth WHERE `login` = '$login' AND `password` = '$pass'");
-	$user = $result->fetch_assoc();
-	if(count($user)== 0){
-	    $error = "Пользователь не найден";
-		header("Location: ../fitnessProject/authorization.html");
-	}
-	else{
-		setcookie("account", $login);
-		setcookie("train", "null");
-		header("Location: ../fitnessProject/main.html");
-	}
-    $connect-> close();
+<?php
+    $login = $_POST['login'];
+    $email = $_POST['e-mail'];
+    $pass = $_POST['password'];
+    if(mb_strlen($login) < 5 ){
+        echo "Недопустимая длина символа";
+        exit()
+    }
 ?>

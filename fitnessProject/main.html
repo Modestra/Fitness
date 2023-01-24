@@ -14,9 +14,6 @@
         <div class="main-hat">
             <img src="images/лого.svg">
             <p class="main-hat-title">GYM LAUNCH</p>
-            <div id="search" class="main-hat-search" onclick="searchClick()">
-                <img src="images/loupe.png">
-            </div>
             <div id="menu" class="main-hat-menu">
                 <p class="main-hat-menu-name">Меню</p>
                 <div class="main-hat-menu-lines">
@@ -25,12 +22,11 @@
                     <div class="main-hat-menu-line-3"></div>
                 </div>
             </div>
-            <div class="main-hat-enter" onclick="comeToAuth()">
+            <div class="main-hat-enter">
                 <p class="main-hat-enter-name">Войти</p>
             </div>
         </div>
     </header>
-    <script src="scripts/headScript.js"></script>
     <div class="fastmenu">
         <div class="fastmenu-plan" onclick="fastmenuplan()">План тренировок</div>
         <div class="fastmenu-work" onclick="fastmenuwork()">Упражнения</div>
@@ -39,13 +35,13 @@
     <div class="main-content-block">
         <div id="video" class="main-content-block-video">
         </div>
-        <div id="select" class="main-content-block-selectable">
-            <div class="main-content-block-selectable-icon"></div>
-            <div class="main-content-block-selectable-icon"></div>
-            <div class="main-content-block-selectable-icon"></div>
-            <div class="main-content-block-selectable-icon"></div>
-            <div class="main-content-block-selectable-icon"></div>
-        </div>
+        <ul id="select" class="main-content-block-selectable">
+            <li class="main-content-block-selectable-icon"></li>
+            <li class="main-content-block-selectable-icon"></li>
+            <li class="main-content-block-selectable-icon"></>
+            <li class="main-content-block-selectable-icon"></li>
+            <li class="main-content-block-selectable-icon"></li>
+        </ul>
         <div class="main-content-block-button">
             <div id="plan" class="main-content-block-button-plan" onclick="fastmenuplan()">
                 <p>Выбрать план тренировок</p>
@@ -79,5 +75,6 @@
     </div>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
     <script src="scripts/fastMenuScript.js"></script>
+    <script src="scripts/mainScript.js"></script>
 </body>
 </html>

@@ -12,11 +12,9 @@ $(document).ready(()=>{
 });
 function fastmenuplan(){
     document.location.href = '../fitnessProject/trainingPlans.html';
-    this.close()
 }
 function fastmenuwork(){
     document.location.href = '../fitnessProject/trainslist.html';
-    this.close()
 }
 function fastmenucabinet(){
     if(getCookie("account") != null){
@@ -25,4 +23,7 @@ function fastmenucabinet(){
     else {
         document.location.href = "../fitnessProject/authorization.html";
     }
+}
+function ComeToMain(){
+    document.location.href = "../fitnessProject/main.html";
 }
