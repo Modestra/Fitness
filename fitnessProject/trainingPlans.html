@@ -19,9 +19,6 @@
   <div class="main-hat">
     <img src="images/лого.svg">
     <p class="main-hat-title">GYM LAUNCH</p>
-    <div id="search" class="main-hat-search" onclick="searchClick()">
-      <img src="images/loupe.png">
-    </div>
     <div class="main-hat-menu">
       <p class="main-hat-menu-name">Меню</p>
       <div class="main-hat-menu-lines">
@@ -30,8 +27,8 @@
         <div class="main-hat-menu-line-3"></div>
       </div>
     </div>
-    <div class="main-hat-enter" onclick="comeToAuth()">
-      <p class="main-hat-enter-name">Войти</p>
+    <div class="main-hat-enter">
+      <p class="main-hat-enter-name" onclick="auth()">Войти</p>
     </div>
   </div>
   <div class="fastmenu">
@@ -40,7 +37,6 @@
     <div class="fastmenu-cabinet" onclick="fastmenucabinet()">Личный Кабинет</div>
   </div>
 </header>
-<script src="scripts/headScript.js"></script>
 <main class="main-content-block">
   <div class="backmenu" onclick="ComeToMain()">
     <img src="images/mainhome.png">

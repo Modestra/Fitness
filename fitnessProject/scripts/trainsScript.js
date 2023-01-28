@@ -27,4 +27,7 @@ $(document).ready(()=>{
 
         })
     })
+    $(".buttom-like").on("click", ()=>{
+        $(this).toggleClass('buttom-like-active');
+    });
 })

@@ -1,11 +1,9 @@
 .content-width {
     max-width: 1366px;
 }
-
 .main-content-block {
     height: 2100px;
 }
-
 .biceps-head {
     width: 946px;
     height: 91px;
@@ -24,18 +22,15 @@
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
-
 .biceps-content {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
-
 .biceps-content-block {
     height: 550px;
     margin-bottom: 76px;
 }
-
 .biceps-exercise {
     width: 946px;
     height: 411px;
@@ -45,7 +40,6 @@
     box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
 }
-
 .biceps-exercise-img {
     width: 752px;
     height: 380px;
@@ -68,7 +62,6 @@
     box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
 }
-
 .buttom-like {
     width: 76px;
     height: 76px;
@@ -76,12 +69,13 @@
     box-shadow: inset 0px 4px 7px #FFFFFF;
     border-radius: 30px;
 }
-
+.buttom-like-active{
+    background: #F69809;
+}
 .buttom-like img {
     width: 50px;
     height: 50px;
 }
-
 .biceps-exercise-block {
     display: flex;
     flex-direction: row;
