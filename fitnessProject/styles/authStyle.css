@@ -9,12 +9,22 @@ body{
     mix-blend-mode: normal;
 }
 .auth {
-    width: 390px;
-    height: 100%;
+    width: 657px;
+    height: 617px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px #000000;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     aligh-items: center;
-    background-color: #E7E7E7;
+}
+.auth-type{
+    width: 657px;
+    height: 91px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
 }
 .auth-text{
     width: 256px;
@@ -22,11 +32,12 @@ body{
     margin-top: 80px;
     text-align: center;
     font-size: 30px;
+    color: white;
 }
 .auth-block{
     margin-top: 30px;
-    width: 315px;
-    height: 75px;
+    width: 657px;
+    height: 58px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -45,6 +56,45 @@ body{
     height: 75px;
     border: 1px solid #F69809;
     border-radius: 30px;
+}
+.auth-block-pol{
+    margin-top: 30px;
+    width: 657px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.auth-block-click{}
+.auth-block-click p{
+    text-align: center;
+    align-items: center;
+    line-height: 58px;
+    font-size: 18px;
+}
+.auth-block-male{
+    width: 170px;
+    height: 58px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: white;
+    margin-right: 0;
+}
+.auth-block-male:hover{
+    cursor: pointer;
+    background-color: #F69809;
+}
+.auth-block-female{
+    width: 170px;
+    height: 58px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    margin-left: 0;
+}
+.auth-block-female:hover{
+    cursor: pointer;
+    background-color: #F69809;
 }
 .auth-sumbit{
     margin-top: 30px;
@@ -66,10 +116,6 @@ body{
     100%{
         background-color: #E7E7E7;
     }
-}
-.auth-text{
-    width: 315px;
-    border-bottom: 1px solid #000000;
 }
 .registration-link{
     margin-top: 20px;
