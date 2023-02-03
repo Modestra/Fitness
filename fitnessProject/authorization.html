@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
+    <link rel="icon" href="../fitnessProject/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../fitnessProject/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/authStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +15,10 @@
     <div id="data" class="auth">
         <p class="auth-text">Авторизация</p>
         <div class="auth-block">
-            <p>Логин</p>
-            <input class="input-login" type="text" name="login">
+            <input class="input-login" type="text" name="login" id="login" placeholder="Введите логин">
         </div>
         <div class="auth-block">
-            <p>Пароль</p>
-            <input class="input-pass" type="password" name="password">
+            <input class="input-pass" type="password" name="password" id="password" placeholder="Введите пароль">
         </div>
         <button id="enter" class="auth-sumbit" type="submit">Войти</button>
         <div class="registration-link" onclick="haveNotAccount()">Нет аккаунта?</div>
