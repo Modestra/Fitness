@@ -1,5 +1,4 @@
 $('#enter').on('click', ()=>{
-    let errorlist = 0;
     var regError = $("#regError");
     var mail = $(".input-email").val();
     var login = $(".input-login").val();
@@ -11,25 +10,40 @@ $('#enter').on('click', ()=>{
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
             );
     };
+    debugger;
     if(validateEmail(mail)){
         console.log("email введен верно");
     }
     else {
         regError.innerHTML = "Неверно введенный email";
         console.log("Неверно введенный email");
-        errorlist++;
     }
     if (login.length < 3 || login.length > 25){
         console.log("Длина логина должна быть от 3 до 25 символов");
-        errorlist++;
     }
     if (password.length < 3 || password.length > 25){
         console.log("Длина пароль должна быть от 3 до 25 символов");
-        errorlist++;
     }
-    if(errorlist == 0){
-        document.location.href = "../fitnessProject/main.html";
+    if(validateEmail(mail) && !(login.length < 3 || login.length > 25) && !(password.length < 3 || password.length > 25)){
+        var jsson = {
+            'email': mail,
+            'login': login,
+            'password': password,
+        };
+        console.log(jsson);
+        debugger;
+        $.ajax({
+            url:"../fitnessProject/connectionDB.php",
+            type: "POST",
+            data: jsson,
+            success:(data)=>{
+                document.location.href = data;
+            }
+        });
     }
+});
+$(".auth-block-click").on("click", ()=>{
+
 });
 function haveNotAccount(){
     document.location.href = "../fitnessProject/registration.html";

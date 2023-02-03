@@ -1,18 +1,15 @@
 <?php
-    $login = $_GET['login'];
-    $email = $_GET['e-mail'];
-    $pass = $_GET['password'];
-    $hashpass = md5($pass."gfgwgwrgergnjfnvjj545235");
-    $error;
-    $connect = mysqli_connect('146.120.224.157', 'modestra', 'kT1hX1dG7m', 'fitnessdatabase');
-    if($connect == false){
-       $error = true;
+    if($_POST["email"]== "test@gmail.com"){
+        setcookie("sex", "female");
+        echo "../fitnessProject/main.html";
     }
     else{
-        setcookie("account", $login);
-        $error = false;
-        $connect->query("INSERT INTO fitness_users(login, password, email) VALUES ('$login', '$hashpass', '$email')");
-        header("Location: ../fitnessProject/main.html");
-        $connect-> close();
+        setcookie("account", $_POST["login"]);
+        setcookie("train", "null");
+        setcookie("sex", "male");
+        #$connect = mysqli_connect('146.120.224.157', 'modestra', 'kT1hX1dG7m', 'fitnessdatabase');
+        #$connect->query("INSERT INTO fitness_users(login, password, email) VALUES ('$login', '$hashpass', '$email')");
+        #$connect-> close();
+        echo "../fitnessProject/main.html";
     }
 ?>

@@ -13,8 +13,13 @@ $(document).ready(()=>{
 function fastmenuplan(){
     document.location.href = '../fitnessProject/trainingPlans.html';
 }
-function fastmenuwork(){
-    document.location.href = '../fitnessProject/trainslist.html';
+function fastmenuwork() {
+    if (getCookie("sex") == "male"){
+        document.location.href = '../fitnessProject/trainslist.html';
+    }
+    else {
+        document.location.href = '../fitnessProject/trainslistFemale.html';
+    }
 }
 function fastmenucabinet(){
     if(getCookie("account") != null){

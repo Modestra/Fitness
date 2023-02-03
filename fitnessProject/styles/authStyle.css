@@ -66,6 +66,9 @@ body{
     align-items: center;
 }
 .auth-block-click{}
+.auth-block-click-sel{
+    background: #F69809;
+}
 .auth-block-click p{
     text-align: center;
     align-items: center;
