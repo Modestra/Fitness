@@ -5,12 +5,13 @@
 }
 body{
     height: 100%;
+    width: 100%;
     background: linear-gradient(180deg, rgba(3, 4, 6, 0.54) 15.31%, rgba(13, 16, 23, 0.54) 54.1%, rgba(255, 255, 255, 0) 100%);
     mix-blend-mode: normal;
 }
 .auth {
-    width: 657px;
-    height: 617px;
+    width: 1057px;
+    height: 717px;
     margin-top: 30px;
     background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     box-shadow: inset 0px 4px 4px #000000;
@@ -26,6 +27,19 @@ body{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.37);
     border-radius: 30px;
 }
+.auth-text-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 357px;
+    height: 121px;
+    margin-top: 80px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(90deg, rgba(24, 24, 24, 0.56) 0%, rgba(0, 0, 0, 0.502911) 47.53%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px  0px 4px 4px #F69809;
+    border-radius: 30px;
+}
 .auth-text{
     width: 256px;
     height: 47px;
@@ -36,24 +50,22 @@ body{
 }
 .auth-block{
     margin-top: 30px;
-    width: 657px;
-    height: 58px;
+    width: 60%;
+    height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: left;
 }
 .auth-block p{
     margin-bottom: 5px;
-    color: #8E8E8E;
-    width: 315px;
+    width: 100%;
     height: 30px;
-    font-size: 20px;
 }
 .auth-block input{
     margin-top: 5px;
     color: #8E8E8E;
-    width: 315px;
-    height: 75px;
+    width: 100%;
+    height: 392px;
     border: 1px solid #F69809;
     border-radius: 30px;
 }
@@ -101,8 +113,8 @@ body{
 }
 .auth-sumbit{
     margin-top: 30px;
-    width: 320px;
-    height: 95px;
+    width: 270px;
+    height: 86px;
     border-radius: 30px;
     background-color: #F69809;
     box-shadow: 0px 4px 4px #989298;
@@ -125,7 +137,6 @@ body{
     margin-bottom: 20px;
     width: 320px;
     height: 55px;
-    text-align: center;
 }
 .registration-link:hover{
     cursor: pointer;
@@ -143,7 +154,17 @@ body{
 .error-text{
     width: 100%;
     height: 100px;
-    text-align: center;
-    font-size: 30px;
+    text-align: left;
+    font-style: normal;
     color: red;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+input[type=text]{
+    font-size: 24px;
+}
+input[type=password]{
+    font-size: 24px;
 }

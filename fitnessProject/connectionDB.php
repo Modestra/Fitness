@@ -7,8 +7,11 @@
         setcookie("account", $_POST["login"]);
         setcookie("train", "null");
         setcookie("sex", "male");
-        $connect = mysqli_connect('146.120.224.157', 'modestra', 'kT1hX1dG7m', 'fitnessdatabase');
-        $connect->query("INSERT INTO fitness_users(login, password, email) VALUES ('$login', '$hashpass', '$email')");
+        $login = $_POST["login"];
+        $password = $_POST["password"];
+        $email = $_POST["email"];
+        $connect = mysqli_connect('fintesswebsite.ru', 'modestra', 'kT1hX1dG7m', 'fitnessdatabase');
+        $connect->query("INSERT INTO fitness_users(login, password, email) VALUES ($login, $password, $email)");
         $connect-> close();
         echo "../fitnessProject/main.html";
     }

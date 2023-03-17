@@ -1,0 +1,14 @@
+.notification-list{
+    position: fixed;
+    width: 35%;
+    height: 100%;
+}
+.notification-warning{
+
+}
+.notification-error{
+
+}
+.notification-info{
+
+}

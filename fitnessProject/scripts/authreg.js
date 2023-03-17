@@ -1,4 +1,5 @@
 $('#enter').on('click', ()=>{
+    debugger;
     var regError = $("#regError");
     var mail = $(".input-email").val();
     var login = $(".input-login").val();

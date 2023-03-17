@@ -19,7 +19,7 @@
 <body>
 <header class="main-hat-block">
   <div class="main-hat">
-    <img src="images/лого.svg">
+    <img src="../../test/bitrix/templates/test/images/лого.svg">
     <p class="main-hat-title">GYM LAUNCH</p>
     <div class="main-hat-menu">
       <p class="main-hat-menu-name">Меню</p>
@@ -48,39 +48,39 @@
       <div class="biceps-content-block">
         <div class="biceps-exercise">
           <div class="biceps-exercise-img">
-            <img src="images/nophoto.jpg" id="image_1">
+            <img src="../../test/bitrix/templates/test/images/nophoto.jpg" id="image_1">
           </div>
         </div>
         <div class="biceps-exercise-block">
           <div class="biceps-exercise-text" id="name_1">Описание</div>
           <button class="buttom-like">
-            <img src="./images/like.png" alt="like">
+            <img src="../../test/bitrix/templates/test/images/like.png" alt="like">
           </button>
         </div>
       </div>
       <div class="biceps-content-block">
         <div class="biceps-exercise">
           <div class="biceps-exercise-img">
-            <img src="images/nophoto.jpg" id="image_2">
+            <img src="../../test/bitrix/templates/test/images/nophoto.jpg" id="image_2">
           </div>
         </div>
         <div class="biceps-exercise-block">
           <div class="biceps-exercise-text" id="name_2">Описание</div>
           <button class="buttom-like">
-            <img src="./images/like.png" alt="like">
+            <img src="../../test/bitrix/templates/test/images/like.png" alt="like">
           </button>
         </div>
       </div>
       <div class="biceps-content-block">
         <div class="biceps-exercise">
           <div class="biceps-exercise-img">
-            <img src="images/nophoto.jpg" id="image_3">
+            <img src="../../test/bitrix/templates/test/images/nophoto.jpg" id="image_3">
           </div>
         </div>
         <div class="biceps-exercise-block">
           <div class="biceps-exercise-text" id="name_3">Описание</div>
           <button class="buttom-like">
-            <img src="./images/like.png" alt="like">
+            <img src="../../test/bitrix/templates/test/images/like.png" alt="like">
           </button>
         </div>
       </div>
@@ -96,11 +96,11 @@
         <a>E-mail</a>
       </div>
       <div class="foot-content-contacts-links">
-        <a><img src="images/socials.png"></a>
-        <a><img src="images/socials2.png"></a>
-        <a><img src="images/socials3.png"></a>
-        <a><img src="images/socials4.png"></a>
-        <a><img src="images/socials5.png"></a>
+        <a><img src="../../test/bitrix/templates/test/images/socials.png"></a>
+        <a><img src="../../test/bitrix/templates/test/images/socials2.png"></a>
+        <a><img src="../../test/bitrix/templates/test/images/socials3.png"></a>
+        <a><img src="../../test/bitrix/templates/test/images/socials4.png"></a>
+        <a><img src="../../test/bitrix/templates/test/images/socials5.png"></a>
       </div>
     </div>
     <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->

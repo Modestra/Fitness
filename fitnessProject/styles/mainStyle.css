@@ -10,7 +10,7 @@ body{
 .main-content-block{
     justify-items: center;
     border-top: 2px solid #ffffff;
-    background-image: url("../fitnessProject/images/background.png");
+    background-image: url("../../../test/bitrix/templates/test/images/background.png");
     height: 950px;
 }
 .foot-content{
@@ -23,7 +23,7 @@ body{
     height: 456px;
     margin-top: 10px;
     border-radius: 10px;
-    background-image: url("../fitnessProject/images/main/main_1.png");
+    background-image: url("../../../test/bitrix/templates/test/images/main/main_1.png");
     background-size: 100%;
 }
 .main-content-block-video img{
