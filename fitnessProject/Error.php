@@ -13,10 +13,10 @@
 <body>
     <header class="main-hat-block">
         <div class="main-hat">
-            <img src="../../test/bitrix/templates/test/images/лого.svg">
+            <img src="../../test/bitrix/templates/test/images/лого.svg" alt="">
             <p class="main-hat-title">GYM LAUNCH</p>
             <div id="search" class="main-hat-search" onclick="searchClick()">
-                <img src="../../test/bitrix/templates/test/images/loupe.png">
+                <img src="../../test/bitrix/templates/test/images/loupe.png" alt="">
             </div>
             <div class="main-hat-menu">
                 <p class="main-hat-menu-name">Меню</p>
@@ -31,7 +31,6 @@
             </div>
         </div>
     </header>
-    <script src="scripts/headScript.js"></script>
     <div class="main-content-block">
         <div class="error-block">
             <p class="error-block-404">404</p>
@@ -50,17 +49,16 @@
                     <a>E-mail</a>
                 </div>
                 <div class="foot-content-contacts-links">
-                    <a><img src="../../test/bitrix/templates/test/images/socials.png"></a>
-                    <a><img src="../../test/bitrix/templates/test/images/socials2.png"></a>
-                    <a><img src="../../test/bitrix/templates/test/images/socials3.png"></a>
-                    <a><img src="../../test/bitrix/templates/test/images/socials4.png"></a>
-                    <a><img src="../../test/bitrix/templates/test/images/socials5.png"></a>
+                    <a><img src="../../test/bitrix/templates/test/images/socials.png" alt=""></a>
+                    <a><img src="../../test/bitrix/templates/test/images/socials2.png" alt=""></a>
+                    <a><img src="../../test/bitrix/templates/test/images/socials3.png" alt=""></a>
+                    <a><img src="../../test/bitrix/templates/test/images/socials4.png" alt=""></a>
+                    <a><img src="../../test/bitrix/templates/test/images/socials5.png" alt=""></a>
                 </div>
             </div>
             <!--Все права защищены. Использование материалов нашего сайта возможно только с указанием ссылки на принадлежность их к нашему сайту -->
         </div>
     </div>
-    <script src="scripts/mainscript.js"></script>
 </body>
 
 </html>

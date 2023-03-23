@@ -2,8 +2,8 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300,&quot;proxyParams&quot;:{&quot;proxyHost&quot;:&quot;fintessite.ru&quot;,&quot;proxyPort&quot;:88,&quot;proxyType&quot;:&quot;HTTP&quot;}}" host="146.120.224.157" id="be51b658-ebc8-4494-a376-ee6538cb13be" port="22" customName="traininghost" nameFormat="CUSTOM" username="user869903" useOpenSSHConfig="true">
-        <option name="customName" value="traininghost" />
+      <sshConfig authType="PASSWORD" host="fintesswebsite.ru" id="aac94377-a93c-4f70-8cdc-f1318a31beff" port="20" customName="sprithost" nameFormat="CUSTOM" username="user869903" useOpenSSHConfig="true">
+        <option name="customName" value="sprithost" />
       </sshConfig>
     </configs>
   </component>

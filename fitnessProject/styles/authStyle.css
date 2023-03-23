@@ -10,7 +10,7 @@ body{
     mix-blend-mode: normal;
 }
 .auth {
-    width: 1057px;
+    width: 80%;
     height: 717px;
     margin-top: 30px;
     background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
@@ -31,8 +31,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 357px;
-    height: 121px;
+    width: 40%;
+    height: 251px;
     margin-top: 80px;
     font-size: 30px;
     color: white;
@@ -51,7 +51,7 @@ body{
 .auth-block{
     margin-top: 30px;
     width: 60%;
-    height: 100px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -65,7 +65,7 @@ body{
     margin-top: 5px;
     color: #8E8E8E;
     width: 100%;
-    height: 392px;
+    height: 292px;
     border: 1px solid #F69809;
     border-radius: 30px;
 }
@@ -88,7 +88,7 @@ body{
     font-size: 18px;
 }
 .auth-block-male{
-    width: 170px;
+    width: 50%;
     height: 58px;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -100,7 +100,7 @@ body{
     background-color: #F69809;
 }
 .auth-block-female{
-    width: 170px;
+    width: 50%;
     height: 58px;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;

@@ -1,5 +1,4 @@
 $('#enter').on('click', ()=>{
-    debugger;
     var regError = $("#regError");
     var mail = $(".input-email").val();
     var login = $(".input-login").val();
@@ -11,44 +10,44 @@ $('#enter').on('click', ()=>{
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
             );
     };
-    debugger;
     if(validateEmail(mail)){
         console.log("email введен верно");
     }
     else {
-        regError.innerHTML = "Неверно введенный email";
-        console.log("Неверно введенный email");
+        document.getElementById("email-error").innerHTML = "Неверно введенный email"
     }
     if (login.length < 3 || login.length > 25){
-        console.log("Длина логина должна быть от 3 до 25 символов");
+        document.getElementById("login-error").innerHTML = "Длина логина должна быть от 3 до 25 символов"
     }
     if (password.length < 3 || password.length > 25){
-        console.log("Длина пароль должна быть от 3 до 25 символов");
+        document.getElementById("password-error").innerHTML = "Длина пароль должна быть от 3 до 25 символов"
     }
+    debugger;
     if(validateEmail(mail) && !(login.length < 3 || login.length > 25) && !(password.length < 3 || password.length > 25)){
         var jsson = {
             'email': mail,
             'login': login,
             'password': password,
         };
-        console.log(jsson);
-        debugger;
         $.ajax({
             url:"../fitnessProject/connectionDB.php",
             type: "POST",
             data: jsson,
             success:(data)=>{
-                document.location.href = data;
+
+            },
+            error:(e)=>{
+                console.log("Не удалось подключиться к базе данных");
             }
         });
     }
 });
-$(".auth-block-click").on("click", ()=>{
-
+$(".auth-block-click").click((e)=>{
+    console.log($(this).id);
 });
 function haveNotAccount(){
-    document.location.href = "../fitnessProject/registration.html";
+    document.location.href = "../fitnessProject/registration.php";
 }
 function haveAccount(){
-    document.location.href = "../fitnessProject/authorization.html";
+    document.location.href = "../fitnessProject/authorization.php";
 }

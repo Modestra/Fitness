@@ -14,7 +14,7 @@
     box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
 }
 .trains-content path:hover{;
     cursor: pointer;
