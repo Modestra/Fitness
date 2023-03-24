@@ -4,5 +4,5 @@ $('.body-map__muscle').mouseover(function() {
     document.cookie = "train=" + this.id + ";";
 });
 $('.body-map__muscle').on("click",()=>{
-    document.location.href = "../fitnessProject/bicepsExercises.html";
+    document.location.href = "../fitnessProject/bicepsExercises.php";
 });

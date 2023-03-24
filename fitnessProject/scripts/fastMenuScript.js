@@ -18,27 +18,27 @@ $(document).ready(()=>{
     }
 });
 function fastmenuplan(){
-    document.location.href = '../fitnessProject/trainingPlans.html';
+    document.location.href = '../fitnessProject/trainingPlans.php';
 }
 function fastmenuwork() {
     if (getCookie("sex") == "male"){
-        document.location.href = '../fitnessProject/trainslist.html';
+        document.location.href = '../fitnessProject/trainslist.php';
     }
     else {
-        document.location.href = '../fitnessProject/trainslistFemale.html';
+        document.location.href = '../fitnessProject/trainslistFemale.php';
     }
 }
 function fastmenucabinet(){
     if(getCookie("account") != null){
-        document.location.href = "../fitnessProject/personalAccount.html";
+        document.location.href = "../fitnessProject/personalAccount.php";
     }
     else {
-        document.location.href = "../fitnessProject/authorization.html";
+        document.location.href = "../fitnessProject/authorization.php";
     }
 }
 function ComeToMain(){
-    document.location.href = "../fitnessProject/main.html";
+    document.location.href = "../fitnessProject/main.php";
 }
 function authorization(){
-    document.location.href = "../fitnessProject/authorization.html";
+    document.location.href = "../fitnessProject/authorization.php";
 }

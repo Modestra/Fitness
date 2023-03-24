@@ -4,6 +4,3 @@ $(document).ready(()=>{
     for(let i= 0; i < selectableVideos.children.length; i++){
     }
 });
-function registation(){
-    document.location.href = "../fitnessProject/registration.html";
-}

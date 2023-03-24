@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Авторизация</title>
-    <link rel="icon" href="../fitnessProject/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="../fitnessProject/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/authStyle.css">
-    <link rel="stylesheet" href="styles/mainStyle.css">
-    <link rel="stylesheet" href="styles/notificationStyles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
-</head>
-<body>
-    <section class="notification-list">
-    </section>
+<?php require("./template/header.php") ?>
     <form id="auth" class="auth">
         <div class="auth-text-border">
             Авторизация
@@ -33,5 +17,4 @@
     </form>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
     <script src="scripts/authreg.js"></script>
-</body>
-</html>
+<?php require("./template/footer.php")?>
