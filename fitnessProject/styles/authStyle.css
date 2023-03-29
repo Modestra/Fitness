@@ -6,13 +6,13 @@
 body{
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, rgba(3, 4, 6, 0.54) 15.31%, rgba(13, 16, 23, 0.54) 54.1%, rgba(255, 255, 255, 0) 100%);
     mix-blend-mode: normal;
 }
 .auth {
     width: 80%;
-    height: 717px;
+    height: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
     background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     box-shadow: inset 0px 4px 4px #000000;
     border-radius: 30px;
@@ -71,7 +71,7 @@ body{
 }
 .auth-block-pol{
     margin-top: 30px;
-    width: 657px;
+    width: 50%;
     height: 58px;
     display: flex;
     flex-direction: row;
@@ -113,7 +113,7 @@ body{
 }
 .auth-sumbit{
     margin-top: 30px;
-    width: 270px;
+    width: 23%;
     height: 86px;
     border-radius: 30px;
     background-color: #F69809;

@@ -1,4 +1,4 @@
-<?php require("./template/header.php") ?>
+<?php require("./template/header.php")?>
     <form id="auth" class="auth">
         <div class="auth-text-border">
             Авторизация
@@ -15,6 +15,6 @@
         <p class="registration-link" onclick="haveNotAccount()">Нет аккаунта?</p>
         <div class="auth-another-links"></div>
     </form>
-    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="lib/jquery-3.6.3.min.js"></script>
     <script src="scripts/authreg.js"></script>
 <?php require("./template/footer.php")?>

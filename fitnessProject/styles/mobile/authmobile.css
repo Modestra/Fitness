@@ -1,3 +1,9 @@
-@media screen and (min-width: 411px) and (min-height: 731px){
-
+@media screen and (min-width: 425px) and (min-height: 800px){
+    .auth{
+        height: 2000px;
+    }
+    *{
+        width: 100%;
+        height: 100%;
+    }
 }

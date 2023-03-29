@@ -5,6 +5,7 @@
     <title>GymLaunch</title>
     <link rel="icon" href="/fitnessProject/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/fitnessProject/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/authStyle.css">
     <link rel="stylesheet" href="./styles/mainStyle.css">
     <link rel="stylesheet" href="./styles/headStyle.css">
@@ -12,6 +13,8 @@
     <link rel="stylesheet" href="./styles/plansStyle.css">
     <link rel="stylesheet" href="./styles/bicepsExercisesStyle.css">
     <link rel="stylesheet" href="./styles/notificationStyles.css">
+    <!-- Мобильные стили  -->
+    <link rel="stylesheet" href="./styles/mobile/authmobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
