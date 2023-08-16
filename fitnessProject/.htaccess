@@ -1,1 +1,3 @@
 AddType application/x-httpd-php .html .htm .php
+
+Allow from all
