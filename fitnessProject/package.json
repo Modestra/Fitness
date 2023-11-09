@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "jquery": "^3.6.3",
-    "mysql2": "^3.0.1"
-  }
-}
